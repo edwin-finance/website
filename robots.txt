@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Allow: /assets/
-Disallow: /assets/script.js
-
-Sitemap: https://edwin.finance/sitemap.xml
