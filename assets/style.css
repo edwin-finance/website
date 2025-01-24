@@ -120,6 +120,7 @@ header {
   opacity: 1;
   perspective: 2000px;
   transform-style: preserve-3d;
+  z-index: 4;
 }
 
 .background-image {
