@@ -91,6 +91,7 @@ body {
   opacity: 0;
   animation: fadeIn 1s ease forwards;
   animation-delay: 2s;
+  visibility: hidden;
 }
 
 .edwin-character-animation-wrapper {
@@ -288,7 +289,7 @@ h2 {
   position: absolute;
   bottom: 5px;
   z-index: 200;
-  right: -2500px;
+  visibility: hidden;
 }
 
 #made-by a {
