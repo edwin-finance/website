@@ -31,3 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+function showFinanceAnimation(element) {
+  element.style.visibility = 'visible';
+}

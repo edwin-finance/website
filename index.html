@@ -27,8 +27,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="./assets/images/finance-v.gif" />
   <link rel="preload" as="image" href="./assets/images/animation-loading.gif" />
   <link href="https://fonts.googleapis.com/css2?family=family=Sen:wght@400..800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.avif">
   <link rel="stylesheet" href="./assets/style.css?120120251425" />
   <link rel="stylesheet" href="./assets/stars.css?120120251425" />
   <title>Edwin - DeFAI Layer</title>
@@ -36,19 +38,19 @@
 
 <body>
   <div class="dark-screen"></div>
-  <img id="loadingGif" class="edwin-loading-animation" src="" alt="Edwin DeFi AI Assistant Loading Animation" />
+  <img loading="lazy" id="loadingGif" class="edwin-loading-animation" src="" alt="Edwin DeFi AI Assistant Loading Animation" />
   <div class="finance-screen-wrapper">
-    <img onload="this.style.visibility = 'visible';" class="finance-screen" src="./assets/images/finance-v.gif"
+    <img loading="lazy" onload="showFinanceAnimation(this)" class="finance-screen" src="./assets/images/finance-v.gif"
       alt="Edwin DeFi Financial Interface Visualization" />
   </div>
   <div class="overlay"></div>
-  <img class="background-moon" src="./assets/images/rotating-bright-moon-xs.gif"
+  <img loading="lazy" class="background-moon" src="./assets/images/rotating-bright-moon-xs.gif"
     alt="Glowing Moon Background Animation" />
   <!-- <img class="background-image" src="./assets/images/background-image-6.webp" alt="Edwin DeFi Platform Background" /> -->
   <header>
-    <img id="top-wave" class="background-image" src="./assets/images/top-wave.png"
+    <img loading="lazy" id="top-wave" class="background-image" src="./assets/images/top-wave.png"
       alt="Edwin DeFAI Platform Background Top Waves" />
-    <img id="bottom-wave" class="background-image" src="./assets/images/bottom-wave.png"
+    <img loading="lazy" id="bottom-wave" class="background-image" src="./assets/images/bottom-wave.png"
       alt="Edwin DeFAI Platform Background Bottom Waves" />
     <div class="header-content">
       <div class="header-text">
@@ -185,24 +187,24 @@
       </div>
 
       <div class="edwin-character-animation-wrapper">
-        <img class="edwin-character-animation" src="./assets/images/animation-character.gif"
+        <img loading="lazy" class="edwin-character-animation" src="./assets/images/animation-character.gif"
           alt="Edwin AI Assistant Character Animation" />
       </div>
     </div>
     <div class="info-links">
       <!-- Docs -->
-      <div class="info-link">
-        <a title="Docs" href="https://docs.edwin.finance" target="_blank" rel="noopener noreferrer">
+      <a title="Docs" href="https://docs.edwin.finance" target="_blank" rel="noopener noreferrer">
+        <div class="info-link">
           DOCS
-        </a>
-      </div>
+        </div>
+      </a>
 
       <!-- Token -->
-      <div class="info-link">
-        <a title="Tokens" href="https://dexscreener.com/solana/79j8n2zusxxim1puvkyotyzkbd2b6hphfgonijwgctna" target="_blank" rel="noopener noreferrer">
+      <a title="Tokens" href="https://dexscreener.com/solana/79j8n2zusxxim1puvkyotyzkbd2b6hphfgonijwgctna" target="_blank" rel="noopener noreferrer">
+        <div class="info-link">
           TOKEN
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
     <div class="stars-wrapper">
       <div class="stars"></div>
