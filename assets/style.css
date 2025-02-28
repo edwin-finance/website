@@ -189,6 +189,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+  font-family: "ADLaM Display", system-ui;
 }
 
 h2 {
@@ -201,6 +202,7 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+  font-family: "ADLaM Display", system-ui;
 }
 
 img,
