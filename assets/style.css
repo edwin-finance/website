@@ -181,28 +181,34 @@ header {
   animation-delay: 5.5s;
 }
 
+h1, h2 {
+  font-family: "Inter", Arial, sans-serif;
+}
+
 h1 {
-  font-size: 3em;
-  letter-spacing: 0.1em;
+  font-size: 4em;
+  font-weight: 400;
+  letter-spacing: 0px;
+
+  /* letter-spacing: 0.1em; */
   background: linear-gradient(45deg, #2c2583, #d4af37);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  font-family: "ADLaM Display", system-ui;
+  /* font-weight: bold; */
 }
 
 h2 {
   color: #eeec;
-  letter-spacing: 0.1em;
-  font-weight: 600;
+  /* letter-spacing: 0.1em; */
+  letter-spacing: 0px;
+  font-weight: 700;
   font-size: 5em;
   background: linear-gradient(45deg, #2c2583, #d4af37);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  font-family: "ADLaM Display", system-ui;
 }
 
 img,
