@@ -1,0 +1,1 @@
+import{FrameraugiA20Il as e,__FramerMetadata__$1 as t,init_augiA20Il as n}from"./shared-lib.DR5iZUo0.mjs";n();export{t as __FramerMetadata__,e as default};
